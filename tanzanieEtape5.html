@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./tanzanieEtape5.css" />
+    <title>Inspiration</title>
+
+</head>
+
+<header>
+
+    <div class="container">
+        <a href="./TANZANIEdate.html"><i class="fa-solid fa-arrow-left" style="color: #6c3427;"></i></a>
+        <div class="ariane">
+
+            <h1 class="premier">01</h1>
+            <h1 class="deuxieme">&ensp;02</h1>
+            <h1 class="troisieme">&ensp;03</h1>
+            <h1 class="quatrieme">&ensp;04</h1>
+            <h1 class="cinquieme">&ensp;05</h1>
+            <h1>&ensp;_____&ensp; 06</h1>
+        </div>
+        <a href="./accueil.html"><img src="./images/logotest.png" alt="logo" class="logo" /></a>
+    </div>
+    <style>
+        .vertical-line {
+            border-left: 2px solid black;
+            display: inline-block;
+            height: 130px;
+            margin: 0 20px;
+        }
+    </style>
+
+
+</header>
+
+
+<body>
+    <main>
+        <section id="sectionLeft">
+
+            <a href="./TANZANIEdate.html">
+                <h4>Retour</h4>
+            </a>
+
+
+
+
+            <h2>CONCEVEZ votre voyage en Tanzanie</h2>
+
+            <H3>Souhaitez-vous préciser certaines choses ?</H3>
+
+            <div class="container">
+
+                <div class="col-75">
+                    <textarea id="subject" name="subject"
+                        placeholder="Envies particulières, contraintes personnelles etc" style="height:200px;
+                        width: 800px"></textarea>
+                </div>
+
+            </div>
+            <ul class="trip-place-items">
+                <li class="li-css trip-place-item" onmouseover="changeColor(this)" onmouseout="restoreColor(this)"
+                    onclick="toggleActive(this)"><span>Nature</span></li>
+                <li class="li-css trip-place-item" onmouseover="changeColor(this)" onmouseout="restoreColor(this)"
+                    onclick="toggleActive(this)">
+                    <span>Sport & Aventure</span>
+                </li>
+                <li class="li-css trip-place-item" onmouseover="changeColor(this)" onmouseout="restoreColor(this)"
+                    onclick="toggleActive(this)"><span>Roadtrip</span></li>
+                <li class="li-css trip-place-item" onmouseover="changeColor(this)" onmouseout="restoreColor(this)"
+                    onclick="toggleActive(this)"><span>Culture</span></li>
+                <li class="li-css trip-place-item" onmouseover="changeColor(this)" onmouseout="restoreColor(this)"
+                    onclick="toggleActive(this)"><span>Romantique</span></li>
+                <li class="li-css trip-place-item" onmouseover="changeColor(this)" onmouseout="restoreColor(this)"
+                    onclick="toggleActive(this)"><span>Expériences insolites</span></li>
+                <li class="li-css trip-place-item" onmouseover="changeColor(this)" onmouseout="restoreColor(this)"
+                    onclick="toggleActive(this)"><span>Hébergements de luxe</span></li>
+                <li class="li-css trip-place-item" onmouseover="changeColor(this)" onmouseout="restoreColor(this)"
+                    onclick="toggleActive(this)"><span>Bien-être &amp; Détente</span></li>
+
+
+
+
+            </ul>
+
+
+            <button id="valider" onclick="date()"><a href="./TanzanieEtape6.html" class=valider>Suivant</a></button>
+
+
+        </section>
+
+
+        <div class="vl"></div>
+        <div class="detail">
+            <p class="conseiller">Un conseiller reviendra vers vous <br> une fois votre devis validé. <br> Bonne
+                nouvelle :
+                ils sont tous spécialistes</p>
+            <p class="resume">Votre résumé</p>
+            <p class="partez">Vous partez:</p>
+            <p class="tanzanie"><i class="fa-solid fa-check" style="color: #f6d5a2;"></i> Tanzanie</p>
+            <p class="couple"><i class="fa-solid fa-check" style="color: #f6d5a2;"></i> En couple (2 Adultes)</p>
+            <p class="quand"> Vous souhaitez partir :</p>
+            <div id="paramVoyage">
+
+            </div>
+
+        </div>
+        </section>
+    </main>
+
+
+
+</body>
+
+
+<script src="https://kit.fontawesome.com/ebc71ce396.js" crossorigin="anonymous"></script>
+
+
+<footer>
+    <section class="contact"> <a href="contacteznous.html"><i id="location" class="fa-solid fa-location-dot"></i></a>
+        <p> Rencontrez-nous <br> <br>
+            Contact <br>
+            Agence <br>
+            Plan d'accès </p>
+    </section>
+    <section class="reseauxsociaux"> Suivez-nous <br>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-snapchat"></i></a>
+    </section>
+    <section class="pdf">
+        <a href="#">
+            <p> Infos légales </p>
+        </a>
+        <a href="#">
+            <p> Sécurité et confidentialité </p>
+        </a>
+        <a href="#">
+            <p> Assurances </p>
+        </a>
+        <a href="#">
+            <p> Conditions générales de vente </p>
+        </a>
+    </section>
+</footer>
+<script src="https://kit.fontawesome.com/ebc71ce396.js" crossorigin="anonymous"></script>
+<!-- <script src="popup.js"></script> -->
+<script src="./etape5.js"></script>
+
+
+</html>

@@ -1,0 +1,266 @@
+/* Header */
+
+header {
+    background-image: url(./images/fond.jpg);
+    width: 100%;
+    height: 163px;
+    background-size: cover;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-right: 3%;
+    font-size: 40px;
+    margin-left: 1%;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin: 0 5px;
+
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    background-color: #f3EEE5;
+}
+
+.Gastronomie {
+    color: rgb(106, 55, 37);
+    font-size: 70px;
+    text-align: center;
+    margin-top: -8%;
+    font-family: "kopub";
+    text-shadow: 5px 2px 1px rgba(0, 0, 0, 0.414);
+}
+
+
+/* Body */
+
+* {
+    box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+    width: 500px;
+    position: relative;
+    margin: 20px;
+    height: 350px;
+    margin-left: 100px;
+    
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+    height: 350px;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    /* height: 15px;
+  width: 15px; */
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+main{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background-color: #f3EEE5;
+    display: flex;
+    justify-content: space-between;
+    height: 480px;
+
+}
+
+.description{
+    width: 500px;
+    font-family: "juliusregular";
+    font-size: 25px;
+    color: #6a3725;
+}
+
+#achat{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    margin-left: 900px;
+    height: 130px;
+    align-items: top;
+    font-family: "juliusregular";
+    font-size: 15px;
+    color: #6a3725;
+}
+
+
+/* Footer */
+
+footer {
+    background-image: url(./images/fond.jpg);
+    width: 100%;
+    height: 145px;
+    background-size: cover;
+    position: relative;
+    font-family: "juliusregular";
+
+    font-weight: bold;
+}
+
+.reseauxsociaux {
+    text-align: center;
+    padding-top: 70px;
+    color: #6a3725;
+}
+
+.pdf {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 20px;
+    padding-right: 20px;
+    color: #6a3725;
+    font-size: small;
+
+}
+
+.pdf a {
+    color: #6a3725;
+    text-decoration: none;
+}
+
+.iconheader {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 25px;
+    padding-right: 15px;
+    font-size: 25px;
+}
+
+.iconheader a {
+    color: #6a3725;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#location {
+    position: absolute;
+    font-size: 35px;
+    bottom: 0;
+    left: 0;
+    padding-left: 13px;
+    padding-bottom: 25px;
+    color: #6a3725;
+}
+
+.contact {
+    position: absolute;
+    left: 0;
+    padding-top: 20px;
+    padding-left: 40px;
+    color: #6a3725;
+}
+
+.reseauxsociaux a {
+    color: #6a3725;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "kopub";
+    src: url(./FONTS/kopubbatang-regular-webfont.woff2) format("woff2"),
+        url(./FONTS/kopubbatang-regular-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "juliusregular";
+    src: url(./FONTS/juliussansone-regular-webfont.woff2) format("woff2"),
+        url(./FONTS/juliussansone-regular-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}

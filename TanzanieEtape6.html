@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./TanzanieEtape6.css" />
+    <title>Inspiration</title>
+
+</head>
+
+<header>
+
+    <div class="container">
+        <a href="./tanzanieEtape5.html"><i class="fa-solid fa-arrow-left" style="color: #6c3427;"></i></a>
+        <div class="ariane">
+
+            <h1 class="premier">01</h1>
+            <h1 class="deuxieme">&ensp;02</h1>
+            <h1 class="troisieme">&ensp;03</h1>
+            <h1 class="quatrieme">&ensp;04</h1>
+            <h1 class="cinquieme">&ensp;05</h1>
+            <h1>&ensp;_____</h1>
+            <h1 class="sixieme">&ensp; 06</h1>
+        </div>
+        <a href="./accueil.html"><img src="./images/logotest.png" alt="logo" class="logo" /></a>
+    </div>
+    <style>
+        .vertical-line {
+            border-left: 2px solid black;
+            display: inline-block;
+            height: 130px;
+            margin: 0 20px;
+        }
+    </style>
+
+
+</header>
+
+
+<body>
+    <main>
+        <section id="sectionLeft">
+
+            <a href="./tanzanieEtape5.html">
+                <h4>Retour</h4>
+            </a>
+
+            <h2>CONCEVEZ votre voyage en Tanzanie</h2>
+
+            <H3>Merci pour ces précieuses informations.
+                Afin qu'un de nos conseillers spécialisés vous recontacte rapidement. Merci de nous laisser vos
+                coordonnées.</H3>
+                <form action="./TanzanieEtape7.html" method="get" id="form">
+            <div class="formulaire">
+
+                <div class="famille">
+                    <label for="nom">Nom de famille*</label><br><br>
+                    <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+                </div>
+                <div class="prenom">
+                    <label for="prenom">Prénom*</label><br><br>
+                    <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required>
+                </div>
+            </div>
+
+            <p class="contact1">Comment préférez-vous être contacté ?</p>
+
+            <div class="formulaire1">
+
+                <div class="mail">
+                    <label for="email">Par courriel*</label><br><br>
+                    <input type="email" id="email" name="email" placeholder="Votre adresse email" required>
+                </div>
+                <div class="tel">
+                    <label for="telephone">Par téléphone*</label><br><br>
+                    <input type="number" id="telephone" name="telephone" placeholder="Votre numéro de portable"
+                        required>
+                </div>
+
+            </div>
+
+            <div id="visioconference">
+                <input type="checkbox" id="visioconference" name="visioconference">
+                <label for="visioconference">Je souhaite faire un appel <a href="" id="visioLink">en
+                        visioconférence</a></label>
+            </div>
+
+            <p class="theme">Invitation à des soirées thématiques</p><br>
+
+            <p class="theme1">Nous organisons régulièrement des événements autour de votre destination. <br>
+                Si vous êtes intéréssé-e, laissez-nous vos coordonnées et nous nous ferons un plaisir de <br> vous
+                envoyer
+                des invitations lorsqu'un événement est organisé près de chez vous.
+            </p>
+
+            <div id="invitation">
+                <input type="checkbox" id="invitation" name="invitation">
+                <label for="invitation">Je souhaite recevoir des invitations</label>
+            </div>
+
+            <p class="connu">Comment nous avez vous connu ?</p><br>
+
+
+            <div class="option"><label class="input-label"></label>
+                <select id="review">
+                    <option value="-1">Sélectionner une option</option>
+                    <option value="0">Moteur de recherche</option>
+                    <option value="1">Bouche à oreille</option>
+                    <option value="2">Parrainage</option>
+                    <option value="3">Réseaux sociaux</option>
+                    <option value="4">Lien sur un autre site</option>
+                    <option value="5">Presse, brochures touristiques</option>
+                    <option value="6">Ancien client</option>
+                    <option value="7">Autre</option>
+                </select>
+            </div>
+
+            <div id="dayss">
+                <input type="checkbox" id="huitdayss" name="days">
+                <p class="">J’accepte
+                    d’être sollicité par 80 Days à des fins de prospection commerciale et de
+                    recevoir des invitations à <br> des événements par email, sms ou courrier postal</p>
+            </div><br>
+
+            <a href="" id="politique">Accéder à notre politique de confidentialité</a><br><br><br><br>
+
+
+
+            <input type="submit" value="Suivant" id="valider" class="valider" >
+            <!-- <button id="valider" onclick="date()"><a href="./TanzanieEtape7.html" class=valider>Suivant</a></button> -->
+        </form>
+
+
+        </section>
+
+
+        <div class="vl"></div>
+        <div class="detail">
+            <p class="conseiller">Un conseiller reviendra vers vous <br> une fois votre devis validé. <br> Bonne
+                nouvelle :
+                ils sont tous spécialistes</p>
+            <p class="resume">Votre résumé</p>
+            <p class="partez">Vous partez:</p>
+            <p class="tanzanie"><i class="fa-solid fa-check" style="color: #f6d5a2;"></i> Tanzanie</p>
+            <p class="couple"><i class="fa-solid fa-check" style="color: #f6d5a2;"></i> En couple (2 Adultes)</p>
+            <p class="quand"> Vous souhaitez partir :</p>
+            <div id="paramVoyage"></div>
+            <p class="interet">Votre êtes interessé par :</p>
+            <p class="nature"><i class="fa-solid fa-check" style="color: #f6d5a2;"></i> Nature</p>
+            <p class="sport"><i class="fa-solid fa-check" style="color: #f6d5a2;"></i> Sport & Aventure</p>
+            <p class="romantique"><i class="fa-solid fa-check" style="color: #f6d5a2;"></i> Romantique</p>
+
+
+
+
+
+        </div>
+        </section>
+    </main>
+
+
+
+</body>
+
+
+<script src="https://kit.fontawesome.com/ebc71ce396.js" crossorigin="anonymous"></script>
+
+
+<footer>
+    <section class="contact"> <a href="contacteznous.html"><i id="location" class="fa-solid fa-location-dot"></i></a>
+        <p> Rencontrez-nous <br> <br>
+            Contact <br>
+            Agence <br>
+            Plan d'accès </p>
+    </section>
+    <section class="reseauxsociaux"> Suivez-nous <br>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-snapchat"></i></a>
+    </section>
+    <section class="pdf">
+        <a href="#">
+            <p> Infos légales </p>
+        </a>
+        <a href="#">
+            <p> Sécurité et confidentialité </p>
+        </a>
+        <a href="#">
+            <p> Assurances </p>
+        </a>
+        <a href="#">
+            <p> Conditions générales de vente </p>
+        </a>
+    </section>
+</footer>
+<script src="https://kit.fontawesome.com/ebc71ce396.js" crossorigin="anonymous"></script>
+<script src="etape5.js"></script>
+<script src="etape6.js"></script>
+
+
+
+
+
+</html>

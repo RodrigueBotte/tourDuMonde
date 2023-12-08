@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="connexion.css">
+    <title>Se connecter</title>
+</head>
+<header>
+    <div class="fleche">
+        <a href="./accueil.html"> <i class="fa-solid fa-arrow-left fleche" style="color: #6c3427;"></i></a>
+    </div>
+    <div class="container">
+
+        <a href="./accueil.html"><img src="./images/logotest.png" alt="logo" class="logo"></a>
+
+    </div>
+</header>
+
+<body>
+    <form action="./profil.html" method="get" id="form">
+        <img src="./images/iconuser.png" alt="icone utilisateur"> <br><br>
+        <label for="mail">
+            <input type="email" name="mail" placeholder="Adresse mail" id="email" required>
+        </label> <br> <br>
+        <label for="password">
+            <input type="password" name="password" placeholder="Mot de passe" id="password" required>
+        </label>
+        <a href="./mdpoubli.html">
+            <p>Mot de passe oublié ?</p>
+        </a>
+        <input type="submit" value="Connexion" class="bouton">
+        <p class="compte"> Si vous n'avez pas de compte, inscrivez-vous!</p>
+        <a href="./inscription.html"> <input type="button" value="S'inscrire" class="bouton"> </a>
+    </form>
+
+
+</body>
+
+<footer>
+
+    <section class="contact"> <a href="contacteznous.html"><i id="location" class="fa-solid fa-location-dot"></i></a>
+        <p> Rencontrez-nous <br> <br>
+            Contact <br>
+            Agence <br>
+            Plan d'accès </p>
+    </section>
+    <section class="reseauxsociaux"> Suivez-nous <br>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+    </section>
+    <section class="pdf">
+        <a href="#">
+            <p> Infos légales </p>
+        </a>
+        <a href="#">
+            <p> Sécurité et confidentialité </p>
+        </a>
+        <a href="#">
+            <p> Assurances </p>
+        </a>
+        <a href="#">
+            <p> Conditions générales de vente </p>
+        </a>
+    </section>
+
+
+</footer>
+<script src="https://kit.fontawesome.com/ebc71ce396.js" crossorigin="anonymous"></script>
+<script src="./connexion.js"></script>
+
+</html>

@@ -1,0 +1,208 @@
+/* Header */
+
+header {
+    background-image: url(./images/fond.jpg);
+    width: 100%;
+    height: 163px;
+    background-size: cover;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-right: 3%;
+    font-size: 40px;
+    margin-left: 1%;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    margin: 0 5px;
+
+}
+
+body {
+    margin: 0;
+}
+
+.Gastronomie{
+    color: rgb(106, 55, 37);
+    font-size: 70px;
+    text-align: center;
+    margin-top: -8%;
+    font-family: "kopub";
+    text-shadow: 5px 2px 1px rgba(0, 0, 0, 0.414);
+}
+
+
+/* Body */
+
+.flip-card {
+    background-color: transparent;
+    width: 345px;
+    height: 280px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbbbbb00;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: #6c3427;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.section img,
+.flip-card-back {
+    border-radius: 3%;
+}
+
+html {
+    background-color: #f3EEE5;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    margin: 37px;
+    justify-content: space-around;
+}
+
+h1 {
+    text-align: center;
+    font-family: "juliusregular";
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.659);
+    color: #6a3725
+}
+
+.description {
+    text-align: center;
+    margin: 60px;
+    font-size: 20px;
+    font-family: "juliusregular";
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+/* Footer */
+
+footer {
+    background-image: url(./images/fond.jpg);
+    width: 100%;
+    height: 145px;
+    background-size: cover;
+    position: relative;
+    font-family: "juliusregular";
+
+    font-weight: bold;
+}
+
+.reseauxsociaux {
+    text-align: center;
+    padding-top: 70px;
+    color: #6a3725;
+}
+
+.pdf {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 20px;
+    padding-right: 20px;
+    color: #6a3725;
+    font-size: small;
+
+}
+
+.pdf a {
+    color: #6a3725;
+    text-decoration: none;
+}
+
+.iconheader {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 25px;
+    padding-right: 15px;
+    font-size: 25px;
+}
+
+.iconheader a {
+    color: #6a3725;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#location {
+    position: absolute;
+    font-size: 35px;
+    bottom: 0;
+    left: 0;
+    padding-left: 13px;
+    padding-bottom: 25px;
+    color: #6a3725;
+}
+
+.contact {
+    position: absolute;
+    left: 0;
+    padding-top: 20px;
+    padding-left: 40px;
+    color: #6a3725;
+}
+
+.reseauxsociaux a {
+    color: #6a3725;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "kopub";
+    src: url(./FONTS/kopubbatang-regular-webfont.woff2) format("woff2"),
+        url(./FONTS/kopubbatang-regular-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "juliusregular";
+    src: url(./FONTS/juliussansone-regular-webfont.woff2) format("woff2"),
+        url(./FONTS/juliussansone-regular-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}

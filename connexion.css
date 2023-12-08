@@ -1,0 +1,150 @@
+header {background-image: url(./images/fond.jpg);
+    width: 100%;
+    height: 163px;
+    background-size: cover;
+  }
+  body {
+    margin: 0;
+    font-family: 'juliusregular';
+    background-color: #f3eee5;
+    width: 100%;
+    height: 412px;
+    background-image: url(./images/plage.jpg);
+    background-size: cover;
+    
+  }
+  .compte{ margin-top: 10px;
+    margin-bottom: 2px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+      align-items: center;
+      padding-top: 10px;
+  }
+ 
+  .logo {width: 120px; 
+  }
+
+
+  form {
+    text-align: center;
+  }
+
+ 
+    
+form img {
+    margin-top: 60px;
+    height: 70px ;
+    width: 70px;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+
+
+input {
+    width: 200px;
+    
+}
+
+form p, a {
+    margin: 0;
+    margin-bottom: 20px;
+    font-style: italic;
+    
+    font-size: small;
+    text-decoration: none;
+    color: black;
+}
+
+.bouton{ background-image: url(./images/fond.jpg);
+
+}
+
+input {
+    border-radius: 5px;
+    border: 1px black solid;
+    
+}
+
+.fleche { margin: 1px;
+    font-size: 40px;
+    position: absolute;
+}
+
+  footer {
+    background-image: url(./images/fond.jpg);
+    width: 100%;
+    height: 145px;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    font-family: "juliusregular" ;
+   font-weight: bold;
+   margin-top: 370px;
+  }
+
+
+  .contact {
+    position: absolute;
+    left: 0;
+    padding-top: 20px;
+    padding-left: 40px;
+    color: #6a3725;
+  }
+
+  #location {
+    position: absolute;
+    font-size: 35px;
+    bottom: 0;
+    left: 0;
+    padding-left: 13px;
+    padding-bottom: 25px;
+    color: #6a3725;
+  }
+
+ 
+  .reseauxsociaux {
+    text-align: center;
+    padding-top: 70px;
+    color: #6a3725;
+   
+ 
+  }
+ 
+  .reseauxsociaux a {
+    color: #6a3725 ;
+    font-size: 25px;
+    text-decoration: none;
+  }
+ 
+  .pdf {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 20px;
+    padding-right: 20px;
+    color: #6a3725;
+    font-size: small;
+    font-family: "juliusregular";
+    font-style: none;
+   
+  }
+ 
+  .pdf a {
+    color: #6a3725;
+    text-decoration: none;
+  }
+
+  @font-face {
+    font-family: "juliusregular";
+    src: url(./FONTS/juliussansone-regular-webfont.woff2) format("woff2"),
+      url(./FONTS/juliussansone-regular-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+ 

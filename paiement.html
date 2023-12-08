@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./paiment.css">
+    <title>Document</title>
+</head>
+
+<header>
+    <div class="fleche"> 
+        <a href="./panier.html"><i class="fa-solid fa-arrow-left" style="color: #6c3427;"></i></a>
+    </div>
+    <div class="container">
+        
+        <a href="./accueil.html"><img src="./images/logotest.png" alt="logo" class="logo"></a>
+       
+        <div class="iconheader">
+            <a href="./profil.html"><i class="fa-solid fa-id-card"> </i></a>
+            <a href="./panier.html"><i class="fa-solid fa-cart-flatbed-suitcase"> </i> </a>
+            
+            </div>
+    </div>
+</header>
+
+<body>
+    <div class="formulaire">
+    <form action="" method="get">
+        <label class="idp" for="Information de paiement">
+            Montant de la commande  
+        </label><br>
+        
+        <p id="argent">
+        </p>
+        <label for="Identification de la société">
+            Identification de la société <br>
+            <input type="XXX80DaysXXX" placeholder="XXX80DaysXXX">
+        </label><br>
+        <br>
+        <label for="Numéro de carte">
+            Numéro de carte <br>
+            <input type="text" name="Numéro de carte" pattern="[0-9]{16}" title="16 chiffres svp" maxlength="16" placeholder="XXXX XXXX XXXX XXXX" required>
+        </label> <br>
+        <br>
+        <label for="Date de fin de validité (MM/AAAA)">
+            Date de fin de validité (MM/AAAA) <br>
+            <select name="month" id="month">
+                <option value="Janvier">Janvier</option>
+                <option value="Février">Février</option>
+                <option value="Mars">Mars</option>
+                <option value="Avril">Avril</option>
+                <option value="Mai">Mai</option>
+                <option value="Juin">Juin</option>
+                <option value="Juillet">Juillet</option>
+                <option value="Août">Août</option>
+                <option value="Septembre">Septembre</option>
+                <option value="Octobre">Octobre</option>
+                <option value="Novembre">Novembre</option>
+                <option value="Décembre">Décembre</option>
+            </select>
+            <select name="année" id="année">
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+                <option value="2029">2029</option>
+                <option value="2030">2030</option>
+                <option value="2031">2031</option>
+                <option value="2032">2032</option>
+                <option value="2033">2033</option>
+            </select>
+
+        </label> <br>
+        <br>
+        <label for="Cryptogramme visuel">
+            Cryptogramme visuel <i class="fa-solid fa-circle-question" id="question"></i>
+            <br>
+            <input type="text" name="Cryptogramme visuel" pattern="[0-9]{3}" title="3 chiffres svp" maxlength="3" placeholder="XXX" required>
+        </label> <br>
+        <br>
+      <input type="submit" value="Payer" class="Payer" >
+    </div>
+</form>
+    <div class="paiement">
+        <!-- <img src="./images/paypal.png" alt="paypal" class="paypal">
+        <img src="./images/Secured_by.png" alt="Secured" class="Secured">
+        <img src="./images/cb.jpg" alt="cb" class="cb">
+        <img src="./images/verifone.png" alt="verifone" class="verifone"> -->
+        <img src="./images/paiement.png" alt="paiement">
+    </div>
+     
+</body>
+
+<footer>
+    <section class="contact"> <a href="#"><i id="location" class="fa-solid fa-location-dot"></i></a>
+       <p> Rencontrez-nous <br> <br>
+         Contact <br>
+         Agence <br>
+         Plan d'accès </p>
+     </section>
+     <section class="reseauxsociaux"> Suivez-nous <br>
+      <a href="#"><i class="fa-brands fa-facebook-f" ></i ></a>
+       <a href="#"><i class="fa-brands fa-instagram"></i></a>
+       <a href="#"><i class="fa-brands fa-twitter"></i></a>
+       <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+     </section>
+     <section class="pdf">
+        <a href="#"><p> Infos légales </p> </a>
+        <a href="#"><p> Sécurité et confidentialité </p></a>
+        <a href="#"> <p> Assurances </p></a>
+        <a href="#"><p> Conditions générales de vente </p></a>
+     </section>
+     
+   </footer>
+   <script src="https://kit.fontawesome.com/ebc71ce396.js" crossorigin="anonymous"></script>
+   
+   <script src="./panier.js"></script>
+</html>

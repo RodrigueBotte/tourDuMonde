@@ -1,0 +1,380 @@
+
+header {
+  background-image: url(./images/fond.jpg);
+  width: 100%;
+  height: 163px;
+  background-size: cover;
+}
+
+footer {
+  background-image: url(./images/fond.jpg);
+  width: 100%;
+  height: 145px;
+  background-size: cover;
+  position: relative;
+  font-family: "juliusregular" ;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.reseauxsociaux {
+  text-align: center;
+  padding-top: 70px;
+  color: #6a3725;
+  
+
+}
+.reseauxsociaux a {
+  color: #6a3725 ;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.pdf {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-top: 20px;
+  padding-right: 20px;
+  color: #6a3725;
+  font-size: small;
+  
+}
+
+.pdf a {
+  color: #6a3725;
+  text-decoration: none;
+}
+
+.contact {
+  position: absolute;
+  left: 0;
+  padding-top: 20px;
+  padding-left: 40px;
+  color: #6a3725;
+}
+
+.iconheader {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-top: 25px;
+  padding-right: 15px;
+  font-size: 25px;
+  
+
+}
+
+
+.iconheader a {
+  color: #6a3725 ;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+#location {
+  position: absolute;
+  font-size: 35px;
+  bottom: 0;
+  left: 0;
+  padding-left: 13px;
+  padding-bottom: 25px;
+  color: #6a3725;
+}
+
+body {
+  margin: 0;
+  background-color: #f3eee5;
+  
+}
+
+.container {
+  display: flex;
+  justify-content:space-between;
+    padding-top: 10px;
+    margin-right: 3%;
+    font-size: 40px;
+    margin-left: 1%;
+}
+
+
+
+.logo {
+  width: 120px;
+  height: 150px;
+  margin: 0 5px;
+
+}
+
+h1{
+text-align: center;
+color:#6a3725 ;
+font-family: "hatolie";
+font-size: 102PX;
+text-shadow: 2px 0px 0px#f3eee5;
+
+}
+
+h2{
+  margin-top: 3%;
+  margin-left: 5.9%;
+  font-size: 200%;
+  font-family: "JULIUS";
+  text-shadow: 1px 1px 1px black;
+  width: 550px;
+}
+
+h3{
+  margin-top: 2%;
+  margin-left: 5.9%;
+  font-size: 200%;
+  opacity: 40%;
+  font-family: "ABHAYA";
+  width: 500px;
+}
+h4{
+  text-align: right;
+  font-size: 21px;
+  margin-right: 80px;
+  margin-top: 10px;
+}
+ 
+.conseiller{
+  margin-top: 3%;
+  font-size: 28px;
+  font-family: "ABHAYA";
+  height: 100px;
+}
+
+.resume{
+  margin-top: 1%;
+  font-size: 35px;
+  /* height: 120px; */
+  font-weight: 800;
+  font-family: "ABHAYA";
+}
+
+.partez{
+  margin-top: -2%;
+  font-size: 25px;
+  font-family: "ABHAYA";
+  
+}
+
+.detail{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+.premier{
+  text-align: center;
+  color:#f3eee5 ;
+  font-size: 102PX;
+  font-family: "hatolie";
+  -webkit-text-stroke: 0.5px #6a3725;
+  text-shadow: 2px 0px 0px #6a3725;
+}
+
+.ariane {
+  display: flex;
+  justify-content: center;
+
+}
+
+.continent{
+  width: 20px;
+  display: flex;
+justify-content: space-around;
+
+}
+
+@font-face {
+  font-family: "JULIUS";
+  src: url(./FONTS/juliussansone-regular-webfont.woff2) format("woff2"),
+    url(./FONTS/juliussansone-regular-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "kopub";
+  src: url(./FONTS/kopubbatang-regular-webfont.woff2) format("woff2"),
+      url(./FONTS/kopubbatang-regular-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "hatolie";
+  src: url(./FONTS/hinted-Hatolie.woff2) format("woff2"),
+      url(./FONTS/hinted-Hatolie.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ABHAYA";
+  src: url(./FONTS/abhayalibre-regular-webfont.woff2) format("woff2"),
+      url(./FONTS/abhayalibre-regular-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+main{
+  margin-top: 2%;
+  display: flex;
+}
+
+#sectionLeft{
+  width: 1000px;
+}
+
+.vl{
+  margin-top: 1%;
+  width: 20px;
+  height: 140px;
+  
+}
+
+.AEA{
+  display: flex;
+  justify-content: space-around;
+  width: 82%;
+  margin-left: 5%;
+  
+  
+}
+
+.oce-lat{
+  display: flex;
+  justify-content: space-around;
+  width: 548px;
+  margin-left: 5%;
+  
+  margin-top: 2%;
+
+  
+
+}
+
+#myImg {
+  border-radius: 6px;
+  cursor:grabbing;
+  transition: 0.3s;
+  
+  
+  
+}
+
+#myImg:hover {opacity: 0.6;}
+
+/* The Modal (background) */
+.modal {
+  display: none; 
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  /* display: block; */
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  /* display: block; */
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+hr{ 
+  
+    border:         none;
+    border-left:    1px solid hsla(200, 10%, 50%,100);
+    height:         100vh;
+    width:          1px;       
+}
+
+.vl {
+  border-left: 4px solid #6c3427;
+  height: 580px;
+}
+
+@font-face {
+  font-family: "juliusregular";
+  src: url(./FONTS/juliussansone-regular-webfont.woff2) format("woff2"),
+    url(./FONTS/juliussansone-regular-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

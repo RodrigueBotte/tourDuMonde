@@ -1,0 +1,29 @@
+header {
+    font-size: 40px;
+    background-image: url(./images/fond.jpg);
+    position: absolute;
+    background-size: cover;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    color: #6A3125;
+    text-shadow: 41px 20px 4px rgba(0, 0, 0, 0.155);
+    font-family: 'rieslingregular';
+    background-size: cover;
+    
+    
+}
+
+body {
+    background-color: #f3EEE5;
+    margin-top: 0;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'rieslingregular';
+    src: url(./FONTS/riesling-webfont.woff2) format('woff2'),
+        url(./FONTS/riesling-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

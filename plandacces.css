@@ -1,0 +1,153 @@
+header {
+    background-image: url(./images/fond.jpg);
+    width: 100%;
+    height: 163px;
+    background-size: cover;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-right: 3%;
+    font-size: 40px;
+    margin-left: 1%;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    margin: 0 5px;
+
+}
+
+body {
+    margin: 0;
+    background-color: #f3eee5;
+    font-family:"juliusregular" ;
+    color: #6a3725;
+    width: 100%;
+    
+}
+
+.planacces {
+    color: rgb(106, 55, 37);
+    font-size: 50px;
+    text-align: center;
+    margin-top: -8%;
+    font-family: "kopub";
+    text-shadow: 5px 2px 1px rgba(0, 0, 0, 0.414);
+}
+
+
+.map {
+    height: 400px ;
+    width: 500px;
+border: 1px black solid;
+
+margin-top: 10px;
+}
+
+.contenant {
+    display: flex;
+    justify-content: center;
+    height: 431px;
+width: 100%;
+}
+
+.textemap {
+    margin-left: 150px;
+    margin-top: 150px;
+    font-size: larger;
+}
+
+
+footer {
+    background-image: url(./images/fond.jpg);
+    width: 100%;
+    height: 145px;
+    background-size: cover;
+    position: relative;
+    font-family: "juliusregular";
+
+    font-weight: bold;
+}
+
+.reseauxsociaux {
+    text-align: center;
+    padding-top: 70px;
+    color: #6a3725;
+}
+
+.pdf {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 20px;
+    padding-right: 20px;
+    color: #6a3725;
+    font-size: small;
+
+}
+
+.pdf a {
+    color: #6a3725;
+    text-decoration: none;
+}
+
+.iconheader {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 25px;
+    padding-right: 15px;
+    font-size: 25px;
+}
+
+.iconheader a {
+    color: #6a3725;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#location {
+    position: absolute;
+    font-size: 35px;
+    bottom: 0;
+    left: 0;
+    padding-left: 13px;
+    padding-bottom: 25px;
+    color: #6a3725;
+}
+
+.contact {
+    position: absolute;
+    left: 0;
+    padding-top: 20px;
+    padding-left: 40px;
+    color: #6a3725;
+}
+
+.reseauxsociaux a {
+    color: #6a3725;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "kopub";
+    src: url(./FONTS/kopubbatang-regular-webfont.woff2) format("woff2"),
+        url(./FONTS/kopubbatang-regular-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "juliusregular";
+    src: url(./FONTS/juliussansone-regular-webfont.woff2) format("woff2"),
+        url(./FONTS/juliussansone-regular-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Insolite.css">
+    <title>Insolite</title>
+</head>
+
+<header>
+    <div class="container">
+        <a href="./gastronomie.html"><i class="fa-solid fa-arrow-left" style="color: #6c3427;"></i></a>
+        <a href="./accueil.html"><img src="./images/logotrans.png" alt="logo" class="logo" /></a>
+    </div>
+    <div class="Gastronomie"> Insolite</div>
+</header>
+
+<body>
+    <main>
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="./images/gastronomie/Kemi.jpg" style="width:500px">
+                <div class="text">Kemi</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="./images/gastronomie/ninja-restaurant-new-york-city-2.jpg" style="width:500px">
+                <div class="text">Ninja New York</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="./images/gastronomie/Yellow rest.jpg" style="width:500px">
+                <div class="text">Yellow Rest</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+        </div>
+        <br>
+
+        <p class="description">
+            <strong> Ninja New York (États-Unis) :</strong>
+            Explorez la mystique ninja à New York avec une expérience culinaire immersive. <br>
+
+            <strong> Kemi (Finlande) :</strong>
+            Dégustez dans un château de glace à Kemi, en Finlande, une expérience gastronomique unique. <br>
+
+            <strong>Yellow Rest (Australie) :</strong>
+            À Sydney, le Yellow Rest offre une cuisine végétarienne créative dans un décor artistique aux teintes
+            jaunes. <br>
+        </p>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+
+    </main>
+    <script src="./Insolite.js"></script>
+    <div id="achat">
+        <p>Prix du voyage 5324 € par personne: <button onclick="paniermoins()">-</button>
+            <button onclick="panier()">+</button>
+        </p>
+        <div id="count">
+            <p> 0 € </p>
+        </div>
+        <a href="./panier.html"><button classe="caddy" onclick="" style="width: 150px;">Ajouter au panier</button></a>
+    </div>
+    
+</body>
+
+<footer>
+    <section class="contact"> <a href="./contacteznous.html"><i id="location" class="fa-solid fa-location-dot"></i></a>
+        <p> Rencontrez-nous <br> <br>
+            Contact <br>
+            Agence <br>
+            Plan d'accès </p>
+    </section>
+    <section class="reseauxsociaux"> Suivez-nous <br>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+    </section>
+    <section class="pdf">
+        <a href="#">
+            <p> Infos légales </p>
+        </a>
+        <a href="#">
+            <p> Sécurité et confidentialité </p>
+        </a>
+        <a href="#">
+            <p> Assurances </p>
+        </a>
+        <a href="#">
+            <p> Conditions générales de vente </p>
+        </a>
+    </section>
+</footer>
+
+<script src="https://kit.fontawesome.com/ebc71ce396.js" crossorigin="anonymous"></script>
+<script src="./payement.js"></script>
+
+</html>

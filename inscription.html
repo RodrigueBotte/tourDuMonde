@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <link rel="stylesheet" href="./inscription.css">
+  <title>Inscription</title>
+</head>
+
+
+<header>
+  <div class="fleche">
+    <a href="./connexion.html"> <i class="fa-solid fa-arrow-left" style="color: #6c3427;"></i></a>
+  </div>
+  <div class="container">
+    <a href="./accueil.html"><img src="./images/logotest.png" alt="logo" class="logo" /></a>
+  </div>
+</header>
+
+<body>
+
+
+
+  <form id="inscriptionForm" action="./connexion.html" method="get">
+    <p> Inscription </p> <br>
+    Nom <br>
+
+    <label for="Nom"><input type="text" id="firstName" name="Nom" placeholder="Entrez votre nom" required>
+    </label> <br> <br> Prénom <br>
+    <label for="Prenom"> <input type="text" id="lastName" name="Prenom" placeholder="Entrez votre prénom" required>
+    </label> <br> <br>
+    <label for="Datedenaissance"> Date de naissance<br>
+      <input type="date" name="Datedenaissance" id="dateBirth" placeholder="Date de naissance*" min="1923-01-01"
+        max="2005-12-31">
+    </label> <br> <br>
+    <label for="email"> Votre adresse mail <br>
+      <input type="email" id="email" name="email" placeholder="Entrez votre adresse mail" required>
+    </label>
+    </label>
+    <br /> <br>
+    <label for="password">Votre mot de passe <br />
+      <input type="password" id="password" name="password" placeholder="Entrez votre mot de passe" required />
+    </label> <br><br>
+    <label for="confirmpassword"> Confirmer votre mot de passe <br>
+      <input type="password" id="confirmPassword" name="confirmpassword" placeholder="Confirmez votre mot de passe"
+        required>
+    </label>
+    <br> <br>
+    <input type="submit" value="S'inscrire" id="inscription" class="inscription">
+
+
+  </form>
+</body>
+<footer>
+  <section class="contact"> <a href="contacteznous.html"><i id="location" class="fa-solid fa-location-dot"></i></a>
+    <p> Rencontrez-nous <br> <br>
+      Contact <br>
+      Agence <br>
+      Plan d'accès </p>
+  </section>
+  <section class="reseauxsociaux"> Suivez-nous <br>
+    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+  </section>
+  <section class="pdf">
+    <a href="#">
+      <p> Infos légales </p>
+    </a>
+    <a href="#">
+      <p> Sécurité et confidentialité </p>
+    </a>
+    <a href="#">
+      <p> Assurances </p>
+    </a>
+    <a href="#">
+      <p> Conditions générales de vente </p>
+    </a>
+  </section>
+</footer>
+<script src="https://kit.fontawesome.com/ebc71ce396.js" crossorigin="anonymous"></script>
+<script src="inscription.js"></script>
+
+</html>

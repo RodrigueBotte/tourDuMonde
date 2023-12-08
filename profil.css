@@ -1,0 +1,226 @@
+header {background-image: url(./images/fond.jpg);
+    width: 100%;
+  height: 163px;
+  background-size: cover;
+   }
+  
+.text {
+    font-family: "rieslingregular";
+    text-shadow: 12px 4px 2px rgba(0, 0, 0, 0.155);
+    color: #6a3725;
+    font-size: 150px;
+  font-weight: bold;
+  }
+ 
+
+.iconheader {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 25px;
+    padding-right: 15px;
+    font-size: 15px;
+  }
+  
+  .iconheader a {
+    color: #6a3725 ;
+    font-size: 25px;
+    text-decoration: none;
+  }
+
+body {
+    margin: 0;
+    font-family: "juliusregular";
+    background-color: #f3eee5;
+    width: 100%;
+    height: 412px;
+    background-image: url(./images/plage.jpg);
+    background-size: cover;
+    
+  }
+
+.Parametres{ position:absolute;
+    left: 450px;
+    margin: 45px;
+    border-radius: 50px;
+    padding: 5px 90px 5px 90px;
+    background-color: white;
+    border: 0.5px solid black;
+    background-image: url(./images/fond.jpg);
+    font-weight: bold;
+     
+}
+
+.Mp { position: absolute;
+    right: 440px;
+    margin: 10px;
+    border-radius: 50px;
+    padding: 5px 70px 5px 70px;
+    background-color: white;
+    border: 0.5px solid black;
+    background-image: url(./images/fond.jpg);
+    font-weight: bold;
+  
+  
+}
+
+.email {position:absolute;
+  left: 420px;
+  margin: 90px;
+  border-radius: 50px;
+  padding: 5px 50px 5px 50px;
+  background-color: white;
+  border: 0.2px solid black;
+
+}
+
+#password { max-width: 80px;
+  text-align: center;
+}
+
+.mdp {
+    position:absolute;
+    left: 370px;
+    margin: 140px;
+    border-radius: 50px;
+    padding: 5px 100px 5px 100px;
+    background-color: white;
+    border: 0.2px solid black;
+    
+  
+}
+
+.paiement {position:absolute;
+  left: 320px;
+  margin: 190px;
+  border-radius: 50px;
+  padding: 5px 50px 5px 50px;
+  background-color: white;
+  border: 0.2px solid black;
+}
+
+.anciensvoyages {position:absolute;
+  right: 400px;
+  margin: 55px;
+  border-radius: 50px;
+  padding: 5px 60px 5px 60px;
+  background-color: white;
+  border: 0.2px solid black;
+
+}
+
+.voycr {position:absolute;
+  right: 350px;
+  margin: 105px;
+  border-radius: 50px;
+  padding: 5px 60px 5px 60px;
+  background-color: white;
+  border: 0.2px solid black;
+
+}
+.gvr {position:absolute;
+  right: 300px;
+  margin: 155px;
+  border-radius: 50px;
+  padding: 5px 30px 5px 30px;
+  background-color: white;
+  border: 0.2px solid black;
+
+}
+
+
+
+
+
+  .container {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+  padding-top: 10px;
+      
+  }
+
+  .fleche { margin: 1px;
+    font-size: 40px;
+    position: absolute;
+  }
+  
+  .logo {width: 100px;
+  }
+
+  footer {
+    background-image:url(./images/fond.jpg);
+    width: 100%;
+    height: 163px;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    font-family: "juliusregular" ;
+   font-weight: bold;
+   
+  }
+
+
+  .contact {
+    position: absolute;
+    left: 0;
+    padding-top: 20px;
+    padding-left: 40px;
+    color: #6a3725;
+  }
+
+  #location {
+    position: absolute;
+    font-size: 35px;
+    bottom: 0;
+    left: 0;
+    padding-left: 13px;
+    padding-bottom: 25px;
+    color: #6a3725;
+  }
+
+ 
+  .reseauxsociaux {
+    text-align: center;
+    padding-top: 70px;
+    color: #6a3725;
+   
+ 
+  }
+ 
+  .reseauxsociaux a {
+    color: #6a3725 ;
+    font-size: 25px;
+    text-decoration: none;
+  }
+ 
+  .pdf {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 20px;
+    padding-right: 20px;
+    color: #6a3725;
+    font-size: small;
+   
+  }
+ 
+  .pdf a {
+    color: #6a3725;
+    text-decoration: none;
+  }
+
+  @font-face {
+    font-family: "juliusregular";
+    src: url(./FONTS/juliussansone-regular-webfont.woff2) format("woff2"),
+      url(./FONTS/juliussansone-regular-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "rieslingregular";
+    src: url(./FONTS/riesling-webfont.woff2) format("woff2"),
+      url(./FONTS/riesling-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }

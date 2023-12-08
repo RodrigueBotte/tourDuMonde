@@ -1,0 +1,173 @@
+header {
+  background-image: url(./images/fond.jpg);
+  width: 100%;
+  height: 163px;
+  background-size: cover;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  background-color: #f3eee5;
+  }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.text,
+.logo {
+  font-size: 150px;
+  font-weight: normal;
+}
+
+.text {
+  font-family: "rieslingregular";
+  text-shadow: 12px 4px 2px rgba(0, 0, 0, 0.155);
+  color: #6a3725;
+}
+
+.logo {
+  width: 90px;
+  height: auto;
+  margin: 0 5px;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f3eee5;
+  width: 100%;
+  height: 412px;
+}
+
+footer {
+  background-image: url(./images/fond.jpg);
+  width: 100%;
+  height: 163px;
+  background-size: cover;
+ position: absolute ;
+ bottom: 0;
+  font-family: "juliusregular" ;
+  font-weight: bold;
+  margin-top: 370px;
+}
+
+img {
+  height: 280px;
+  width: 345px;
+}
+
+main img:hover {
+  opacity: 0.6;
+}
+
+
+
+
+.reseauxsociaux {
+  text-align: center;
+  padding-top: 70px;
+  color: #6a3725;
+  
+
+}
+
+.reseauxsociaux a {
+  color: #6a3725 ;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.pdf {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-top: 20px;
+  padding-right: 20px;
+  color: #6a3725;
+  font-size: small;
+  
+}
+
+.pdf a {
+  color: #6a3725;
+  text-decoration: none;
+}
+
+.contact {
+  position: absolute;
+  left: 0;
+  padding-top: 20px;
+  padding-left: 40px;
+  color: #6a3725;
+}
+
+h1 {
+  font-family: "juliusregular";
+  text-align: center;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.659);
+  color: #6a3725
+}
+
+
+.iconheader {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-top: 25px;
+  padding-right: 15px;
+  font-size: 25px;
+  
+
+}
+
+
+.iconheader a {
+  color: #6a3725 ;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.searchbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 26px; ;
+  padding-right: 150px;
+  border-radius: 50px;
+
+}
+
+#location {
+  position: absolute;
+  font-size: 35px;
+  bottom: 0;
+  left: 0;
+  padding-left: 13px;
+  padding-bottom: 25px;
+  color: #6a3725;
+}
+
+
+
+
+@font-face {
+  font-family: "rieslingregular";
+  src: url(./FONTS/riesling-webfont.woff2) format("woff2"),
+    url(./FONTS/riesling-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "juliusregular";
+  src: url(./FONTS/juliussansone-regular-webfont.woff2) format("woff2"),
+    url(./FONTS/juliussansone-regular-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,355 @@
+header {
+    background-image: url(./images/fond.jpg);
+    width: 100%;
+    height: 163px;
+    background-size: cover;
+}
+
+footer {
+    background-image: url(./images/fond.jpg);
+    width: 100%;
+    height: 145px;
+    background-size: cover;
+    position: relative;
+    font-family: "juliusregular";
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.reseauxsociaux {
+    text-align: center;
+    padding-top: 70px;
+    color: #6a3725;
+
+
+}
+
+.reseauxsociaux a {
+    color: #6a3725;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.pdf {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 20px;
+    padding-right: 20px;
+    color: #6a3725;
+    font-size: small;
+
+}
+
+.pdf a {
+    color: #6a3725;
+    text-decoration: none;
+}
+
+.contact {
+    position: absolute;
+    left: 0;
+    padding-top: 20px;
+    padding-left: 40px;
+    color: #6a3725;
+}
+
+.iconheader {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 25px;
+    padding-right: 15px;
+    font-size: 25px;
+
+
+}
+
+
+.iconheader a {
+    color: #6a3725;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#location {
+    position: absolute;
+    font-size: 35px;
+    bottom: 0;
+    left: 0;
+    padding-left: 13px;
+    padding-bottom: 25px;
+    color: #6a3725;
+}
+
+body {
+    margin: 0;
+    background-color: #f3eee5;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-right: 3%;
+    font-size: 40px;
+    margin-left: 1%;
+}
+
+
+
+.logo {
+    width: 120px;
+    height: 150px;
+    margin: 0 5px;
+
+}
+
+h1 {
+    text-align: center;
+    color: #6a3725;
+    font-family: "hatolie";
+    font-size: 102PX;
+    text-shadow: 2px 0px 0px#f3eee5;
+
+}
+
+h2 {
+    margin-top: 3%;
+    margin-left: 5.9%;
+    font-size: 164%;
+    font-family: "JULIUS";
+    text-shadow: 1px 1px 1px black;
+    width: 550px;
+}
+
+h3 {
+    margin-top: 2%;
+    margin-left: 5.9%;
+    font-size: 200%;
+    opacity: 40%;
+    font-family: "ABHAYA";
+    width: 500px;
+}
+
+h4 {
+    text-align: right;
+    font-size: 21px;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+    font-family: "ABHAYA";
+    width: 50%;
+    font-size: 25px;
+    margin-left: 58px;
+
+}
+
+.conseiller {
+    margin-top: 3%;
+    font-size: 28px;
+    font-family: "ABHAYA";
+    height: 100px;
+}
+
+.resume {
+    margin-top: 1%;
+    font-size: 35px;
+    /* height: 120px; */
+    font-weight: 800;
+    font-family: "ABHAYA";
+}
+
+.partez {
+    margin-top: -2%;
+    font-size: 20px;
+    font-family: "ABHAYA";
+
+}
+
+.tanzanie {
+    margin-top: -2%;
+    font-size: 25px;
+    font-family: "ABHAYA";
+    font-weight: 500;
+    text-shadow: 0px 0px 1px black;
+}
+
+.couple{
+    margin-top: -2%;
+    font-size: 25px;
+    font-family: "ABHAYA";
+    font-weight: 500;
+    text-shadow: 0px 0px 1px black;
+
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.premier {
+    text-align: center;
+    color: #6a3725;
+    font-family: "hatolie";
+    font-size: 102PX;
+    text-shadow: 2px 0px 0px#f3eee5;
+}
+
+.deuxieme {
+    text-align: center;
+    color: #6a3725;
+    font-family: "hatolie";
+    font-size: 102PX;
+    text-shadow: 2px 0px 0px#f3eee5;
+}
+
+.troisieme {
+    text-align: center;
+    color: #6a3725;
+    font-family: "hatolie";
+    font-size: 102PX;
+    text-shadow: 2px 0px 0px#f3eee5;
+
+}
+
+.quatrieme{
+    text-align: center;
+    color: #f3eee5;
+    font-size: 102PX;
+    font-family: "hatolie";
+    -webkit-text-stroke: 0.5px #6a3725;
+    text-shadow: 2px 0px 0px #6a3725;
+
+}
+
+
+.ariane {
+    display: flex;
+    justify-content: center;
+
+}
+
+.continent {
+    width: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+@font-face {
+    font-family: "JULIUS";
+    src: url(./FONTS/juliussansone-regular-webfont.woff2) format("woff2"),
+        url(./FONTS/juliussansone-regular-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "kopub";
+    src: url(./FONTS/kopubbatang-regular-webfont.woff2) format("woff2"),
+        url(./FONTS/kopubbatang-regular-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "hatolie";
+    src: url(./FONTS/hinted-Hatolie.woff2) format("woff2"),
+        url(./FONTS/hinted-Hatolie.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ABHAYA";
+    src: url(./FONTS/abhayalibre-regular-webfont.woff2) format("woff2"),
+        url(./FONTS/abhayalibre-regular-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "juliusregular";
+    src: url(./FONTS/juliussansone-regular-webfont.woff2) format("woff2"),
+      url(./FONTS/juliussansone-regular-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+main {
+    margin-top: 2%;
+    display: flex;
+}
+
+#sectionLeft {
+    width: 1000px;
+}
+
+.vl {
+    margin-top: 1%;
+    width: 20px;
+    height: 140px;
+
+}
+
+
+#valider {
+    /* display: none; */
+    font-size: 35px;
+    font-family: "ABHAYA";
+    background-color: #6c3427;
+    color: #f3eee5;
+    text-shadow: 4px 5px 7px black;
+    border-radius: 5px;
+    margin-left: 590px;
+    margin-top: 300px;
+    text-align: center;
+}
+
+.valider{
+    text-decoration: none;
+    color: #f3eee5;
+    
+}
+
+
+hr {
+    
+    border: none;
+    border-left: 1px solid hsla(200, 10%, 50%, 100);
+    height: 100vh;
+    width: 1px;
+}
+
+.vl {
+    border-left: 4px solid #6c3427;
+    height: 580px;
+}
+
+
+#jour{
+    width: 120px;
+    background-color: #f3eee5;
+    font-family: "ABHAYA";  
+    height: 26px;  
+    font-weight: 700;
+    
+}
+
+#date{
+    width: 130px;
+    background-color:#f3eee5;
+    font-family: "ABHAYA";
+    height: 28px;
+    font-weight: 700;
+ 
+}
+
